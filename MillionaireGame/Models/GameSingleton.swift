@@ -17,6 +17,8 @@ class GameSingleton {
     
     private let gameRecordCaretaker = GameRecordCaretaker()
     
+    var questionsOrder: QuestionsOrder = .sequential
+    
     private(set) var gameResults: [GameRecord] {
         didSet {
             gameRecordCaretaker.saveGameResults(results: gameResults)

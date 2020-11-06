@@ -10,6 +10,10 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBAction func playButtonOnTap(_ sender: UIButton) {
+        guard gameContent.first != nil else {
+            return noQuestionsError()
+        }
+        
         let newGameSession = GameSession()
         GameSingleton.shared.gameSession = newGameSession
         
@@ -20,12 +24,28 @@ class MainViewController: UIViewController {
         performSegue(withIdentifier: "ResultsSegue", sender: nil)
     }
     
+    @IBAction func settingsButtonOnTap(_ sender: Any) {
+        performSegue(withIdentifier: "GoToSettingsSegue", sender: nil)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "PlayGameSegue" {
             let vc = segue.destination as! GameScreenViewController
             vc.gameScreenDelegate = self
         }
         else { return }
+    }
+
+    func noQuestionsError() {
+        let alert = UIAlertController(title: "Ошибка", message: "Нет вопросов.", preferredStyle: UIAlertController.Style.actionSheet)
+        alert.addAction(UIAlertAction(title: "Ок", style: UIAlertAction.Style.default, handler: {_ in
+            self.dismiss(animated: true, completion: nil)
+        }))
+        alert.addAction(UIAlertAction(title: "Добавить вопросы", style: UIAlertAction.Style.default, handler: {_ in
+            self.performSegue(withIdentifier: "GoToSettingsSegue", sender: nil)
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
 }
 

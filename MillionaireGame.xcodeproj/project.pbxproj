@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3205121A2552CFCF006A7D56 /* AddQuestionScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320512192552CFCF006A7D56 /* AddQuestionScreenViewController.swift */; };
+		3205121D2552D0C3006A7D56 /* AddQuestionCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205121C2552D0C3006A7D56 /* AddQuestionCaretaker.swift */; };
+		320512202552D207006A7D56 /* QuestionsSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205121F2552D207006A7D56 /* QuestionsSingleton.swift */; };
 		32264FAB255021E700AB7499 /* ResultsScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32264FAA255021E700AB7499 /* ResultsScreenTableViewCell.swift */; };
 		32264FB02550230000AB7499 /* ResultsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32264FAF2550230000AB7499 /* ResultsScreenViewController.swift */; };
 		32696E672549C2F70004F89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32696E662549C2F70004F89B /* AppDelegate.swift */; };
@@ -17,6 +20,11 @@
 		32696E732549C2FC0004F89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32696E712549C2FC0004F89B /* LaunchScreen.storyboard */; };
 		32696E7E2549C4BE0004F89B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32696E7D2549C4BE0004F89B /* Question.swift */; };
 		32696E8D2549D7A50004F89B /* GameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32696E8C2549D7A50004F89B /* GameScreenViewController.swift */; };
+		32872ACD2552AF2900704752 /* SettingsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872ACC2552AF2900704752 /* SettingsScreenViewController.swift */; };
+		32872AD12552B0F600704752 /* QuestionsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872AD02552B0F600704752 /* QuestionsOrder.swift */; };
+		32872AD52552B4BF00704752 /* QuestionOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872AD42552B4BF00704752 /* QuestionOrderStrategy.swift */; };
+		32872AD92552B59300704752 /* SequentialOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872AD82552B59300704752 /* SequentialOrderStrategy.swift */; };
+		32872ADD2552BD2900704752 /* RandomOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872ADC2552BD2900704752 /* RandomOrderStrategy.swift */; };
 		328950E62550172200B45C45 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328950E52550172200B45C45 /* GameRecord.swift */; };
 		32FF0C3B254B176C008F7EF8 /* GameSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FF0C3A254B176C008F7EF8 /* GameSingleton.swift */; };
 		32FF0C3F254B17B3008F7EF8 /* RecordsCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FF0C3E254B17B3008F7EF8 /* RecordsCaretaker.swift */; };
@@ -24,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320512192552CFCF006A7D56 /* AddQuestionScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionScreenViewController.swift; sourceTree = "<group>"; };
+		3205121C2552D0C3006A7D56 /* AddQuestionCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionCaretaker.swift; sourceTree = "<group>"; };
+		3205121F2552D207006A7D56 /* QuestionsSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsSingleton.swift; sourceTree = "<group>"; };
 		32264FAA255021E700AB7499 /* ResultsScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsScreenTableViewCell.swift; sourceTree = "<group>"; };
 		32264FAF2550230000AB7499 /* ResultsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsScreenViewController.swift; sourceTree = "<group>"; };
 		32696E632549C2F70004F89B /* MillionaireGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionaireGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +47,11 @@
 		32696E742549C2FC0004F89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32696E7D2549C4BE0004F89B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		32696E8C2549D7A50004F89B /* GameScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewController.swift; sourceTree = "<group>"; };
+		32872ACC2552AF2900704752 /* SettingsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewController.swift; sourceTree = "<group>"; };
+		32872AD02552B0F600704752 /* QuestionsOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsOrder.swift; sourceTree = "<group>"; };
+		32872AD42552B4BF00704752 /* QuestionOrderStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionOrderStrategy.swift; sourceTree = "<group>"; };
+		32872AD82552B59300704752 /* SequentialOrderStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialOrderStrategy.swift; sourceTree = "<group>"; };
+		32872ADC2552BD2900704752 /* RandomOrderStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomOrderStrategy.swift; sourceTree = "<group>"; };
 		328950E52550172200B45C45 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
 		32FF0C3A254B176C008F7EF8 /* GameSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSingleton.swift; sourceTree = "<group>"; };
 		32FF0C3E254B17B3008F7EF8 /* RecordsCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCaretaker.swift; sourceTree = "<group>"; };
@@ -53,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		320512172552CF9D006A7D56 /* Add Question Screen */ = {
+			isa = PBXGroup;
+			children = (
+				320512192552CFCF006A7D56 /* AddQuestionScreenViewController.swift */,
+			);
+			path = "Add Question Screen";
+			sourceTree = "<group>";
+		};
 		32264FA2255020D400AB7499 /* Results Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,7 @@
 		32696E652549C2F70004F89B /* MillionaireGame */ = {
 			isa = PBXGroup;
 			children = (
+				32872AD32552B4A500704752 /* Strategy */,
 				32696E832549D56B0004F89B /* Screens */,
 				32696E7C2549C4A30004F89B /* Models */,
 				32FF0C3D254B179C008F7EF8 /* Managers */,
@@ -100,6 +125,8 @@
 				32FF0C3A254B176C008F7EF8 /* GameSingleton.swift */,
 				32FF0C42254B17EF008F7EF8 /* GameSession.swift */,
 				328950E52550172200B45C45 /* GameRecord.swift */,
+				32872AD02552B0F600704752 /* QuestionsOrder.swift */,
+				3205121F2552D207006A7D56 /* QuestionsSingleton.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +138,8 @@
 				32696E842549D5770004F89B /* Main Screen */,
 				32696E8B2549D7910004F89B /* Game Screen */,
 				32264FA2255020D400AB7499 /* Results Screen */,
+				32872ACB2552AF1300704752 /* Settings Screen */,
+				320512172552CF9D006A7D56 /* Add Question Screen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -131,10 +160,29 @@
 			path = "Game Screen";
 			sourceTree = "<group>";
 		};
+		32872ACB2552AF1300704752 /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+				32872ACC2552AF2900704752 /* SettingsScreenViewController.swift */,
+			);
+			path = "Settings Screen";
+			sourceTree = "<group>";
+		};
+		32872AD32552B4A500704752 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				32872AD42552B4BF00704752 /* QuestionOrderStrategy.swift */,
+				32872AD82552B59300704752 /* SequentialOrderStrategy.swift */,
+				32872ADC2552BD2900704752 /* RandomOrderStrategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		32FF0C3D254B179C008F7EF8 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				32FF0C3E254B17B3008F7EF8 /* RecordsCaretaker.swift */,
+				3205121C2552D0C3006A7D56 /* AddQuestionCaretaker.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -211,12 +259,20 @@
 			files = (
 				32696E8D2549D7A50004F89B /* GameScreenViewController.swift in Sources */,
 				32FF0C3F254B17B3008F7EF8 /* RecordsCaretaker.swift in Sources */,
+				3205121A2552CFCF006A7D56 /* AddQuestionScreenViewController.swift in Sources */,
 				328950E62550172200B45C45 /* GameRecord.swift in Sources */,
 				32FF0C43254B17EF008F7EF8 /* GameSession.swift in Sources */,
+				32872ADD2552BD2900704752 /* RandomOrderStrategy.swift in Sources */,
+				320512202552D207006A7D56 /* QuestionsSingleton.swift in Sources */,
 				32FF0C3B254B176C008F7EF8 /* GameSingleton.swift in Sources */,
+				32872AD52552B4BF00704752 /* QuestionOrderStrategy.swift in Sources */,
+				32872ACD2552AF2900704752 /* SettingsScreenViewController.swift in Sources */,
+				32872AD92552B59300704752 /* SequentialOrderStrategy.swift in Sources */,
 				32696E6B2549C2F70004F89B /* MainViewController.swift in Sources */,
+				32872AD12552B0F600704752 /* QuestionsOrder.swift in Sources */,
 				32264FAB255021E700AB7499 /* ResultsScreenTableViewCell.swift in Sources */,
 				32696E672549C2F70004F89B /* AppDelegate.swift in Sources */,
+				3205121D2552D0C3006A7D56 /* AddQuestionCaretaker.swift in Sources */,
 				32696E7E2549C4BE0004F89B /* Question.swift in Sources */,
 				32696E692549C2F70004F89B /* SceneDelegate.swift in Sources */,
 				32264FB02550230000AB7499 /* ResultsScreenViewController.swift in Sources */,
